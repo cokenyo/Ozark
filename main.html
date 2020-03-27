@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ozark Taco</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid nh">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                       	 
+      </button>
+      <a href="main.html" class="navbar-left"><img src="res/logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navcenter">
+        
+        <li><a href="food_drink.html">FOOD & DRINK</a></li>
+        <li><a href="#">OUR STORY</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="order.html">ORDER</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid bg">
+
+	<div class="row tile">
+		<picture>
+			<source media="(min-width: 767px)" srcset="res/firsttile4-1.jpg">
+			<img src="res/firsttile4-1m.jpg" class="img-responsive">
+			<!--<img src="maintext.png" class="Centered" class="img-responsive">-->
+		</picture>
+	</div>
+  <!--
+  <div class="row row1">
+    <div class="col-sm-4" style="background-color:#228B22;">
+      <p>We strive to offer the best...</p>
+    </div>
+    <div class="col-sm-8">
+    	<img src="fronttacos.jpg" class="img-responsive" alt="San Francisco">
+      
+    </div>
+  </div>
+-->
+</div>
+
+<footer>
+	<div class="container-fluid" style="background-color: black">
+		<div class="row footer-row" style="background-color: black">
+      <div class="col-sm-8">
+		    <a href="#" class="footer-item">CATERING</a>
+		    <a href="#" class="footer-item">CAREERS</a>
+		    <a href="#" class="footer-item">LOCATIONS</a>
+        <a href="#" class="footer-item">FRANCHISE</a>
+        <a href="#" class="footer-item">CONTACT</a>
+      </div>
+
+      <div class="col-sm-4" style="text-align: right;">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+
+      </div>
+        
+
+		</div>
+    <div class="row" style="width:100%; text-align: center;">
+      <div class="col-sm-12">
+        <p>©2019 Ozark Taco | A Development Groups Brand</p>
+      </div>
+    </div>
+    
+	</div>
+
+</footer>
+
+</body>
+
+<style> 
+.row {
+	padding: 0px 0px;
+	float: left;
+	display: inline-block;
+}
+
+.row1 {
+	
+	height: 100%;
+	padding: 00px 0px;
+}
+.navbar {
+	margin-bottom: 0;
+	font-size: 16px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  
+  border-radius:0px;
+  border-color: black;
+  background-color: black; /* #418736*/
+  float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    max-height: 52px;
+
+}
+.navcenter {
+ display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.icon-bar {
+
+}
+.navbar-inverse .navbar-nav > li > a {
+    
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    
+    color: #cfb329;
+}
+.bg {
+	background-image: url("res/wood3background.jpg");
+	background-repeat: no-repeat;
+	background-attachment : fixed;
+}
+.navbar-header > a {
+	max-height: 25px;
+}
+.navbar-header > a > img {
+	max-height: 110px;
+	padding-left: 50px;
+	padding-top: 9px;
+}
+@media (max-width: 767px){
+    .navbar-header > a > img {
+        max-height: 80px;
+	padding-left: 50px;
+	padding-top: 7px;;
+    }
+
+}
+
+.footer-row {
+  background-color: blue;
+  width: 100%;
+	min-height: 10px;
+	padding: 25px 25px;
+
+}
+.footer-item {
+
+	padding: 10px 10px;
+  font-size: 16px;
+  color: white;
+}
+.footer-item:hover, .footer-item:focus {
+    color: #cfb329;
+}
+.fa {
+
+  padding: 15px;
+  padding-right:5px; 
+  padding-bottom:5px;
+  padding-top:0px;
+  padding-left:5px;
+  font-size: 25px;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60%;
+  color: white;
+}
+.fa-twitter:hover {
+  color: #55ACEE;
+}
+.fa-facebook:hover {
+  color: #3B5998;
+}
+.fa-instagram:hover {
+  color: #E1306C;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+</style>
+
+
+</html>
