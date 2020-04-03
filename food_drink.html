@@ -17,22 +17,23 @@
       pillbox text wrapping on small screens
       small screen menu drop down and max height
       footer float during stacking
+      //a little bit of a texture background for the white menu backgroudn
    -->
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid nh">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <div class="navbar-header" id="navv">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="navButton">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                       	 
       </button>
-      <a href="index.html" class="navbar-left"><img src="res/logo.png"></a>
+      <a href="main.html" class="navbar-left"><img src="res/logo.png"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navcenter">
         
-        <li><a href="#" style="color: #cfb329;">FOOD & DRINK</a></li>
+        <li><a href="#" style="color: #EFC15B;">FOOD & DRINK</a></li>
         <li><a href="#">OUR STORY</a></li>
         <li><a href="#">CONTACT US</a></li>
       </ul>
@@ -44,8 +45,8 @@
 </nav>
 
 <div class="container-fluid bg" style=""> <!-- bkfast/tacos/other-->
-  <div class="row pillrow" style="background-color: white; width: 94%; border-radius: 15px;">
-    <div class="col-xs-12">
+  <div class="row pillrow" style="background-image: url(res/white.png); width: 92%; border-radius: 15px;">
+    <div class="col-xs-12" style="opacity: 100%;">
     <ul class="nav nav-pills red" style="display: inline-block;">
       <li><a data-toggle="pill" href="#menu1" >BREAKFAST</a></li>
       <li class="active"><a data-toggle="pill" href="#home">TACOS</a></li>
@@ -55,35 +56,35 @@
     <div class="tab-content">
       <div id="home" class="tab-pane fade in active">
         <div class="row menurow">
-          <div class="col-md-4 col-sm-6 col-xs-12 menuitem text-wrap" style="border-radius: 15px;">
-            <div style="border-style: solid; max-width: 300px; display: inline-block; border-radius: 10px 10px 0px 0px; border-width: 4px;">
+          <div class="col-md-4 col-sm-6 col-xs-12 menuitemcon text-wrap">
+            <div class="menuitem">
               <img src="res/taco.png" class="img-responsive menupic" >
               <div style="border-style: solid none none none; background-color: lightgray;">
                 <div class="caption center-block">Lorem Ipsum Taco</div>
               </div>
-              <div style="border-style: solid none none none; background-color: #cfb329;">
+              <div style="border-style: solid none none none; background-color: #EFC15B;">
                 <div class="caption center-block">Deep fried tacos with taco sauce and topped with tacos</div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 menuitem text-wrap" style="border-radius: 15px;">
-            <div style="border-style: solid; max-width: 300px; display: inline-block; border-radius: 10px 10px 0px 0px; border-width: 4px;">
+          <div class="col-md-4 col-sm-6 col-xs-12 menuitemcon text-wrap">
+            <div class="menuitem">
               <img src="res/taco.png" class="img-responsive menupic" >
               <div style="border-style: solid none none none; background-color: lightgray;">
                 <div class="caption center-block">Lorem Ipsum Taco</div>
               </div>
-              <div style="border-style: solid none none none; background-color: #cfb329;">
+              <div style="border-style: solid none none none; background-color: #EFC15B;">
                 <div class="caption center-block">Deep fried tacos with taco sauce and topped with tacos</div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 menuitem text-wrap" style="border-radius: 15px;">
-            <div style="border-style: solid; max-width: 300px; display: inline-block; border-radius: 10px 10px 0px 0px; border-width: 4px;">
+          <div class="col-md-4 col-sm-6 col-xs-12 menuitemcon text-wrap">
+            <div class="menuitem">
               <img src="res/taco.png" class="img-responsive menupic" >
               <div style="border-style: solid none none none; background-color: lightgray;">
                 <div class="caption center-block">Lorem Ipsum Taco</div>
               </div>
-              <div style="border-style: solid none none none; background-color: #cfb329;">
+              <div style="border-style: solid none none none; background-color: #EFC15B;">
                 <div class="caption center-block">Deep fried tacos with taco sauce and topped with tacos</div>
               </div>
             </div>
@@ -93,35 +94,35 @@
       </div>
       <div id="menu1" class="tab-pane fade">
         <div class="row menurow">
-          <div class="col-md-4 col-sm-6 col-xs-12 menuitem text-wrap" style="border-radius: 15px;">
-            <div style="border-style: solid; max-width: 300px; display: inline-block; border-radius: 10px 10px 0px 0px; border-width: 4px;">
+          <div class="col-md-4 col-sm-6 col-xs-12 menuitemcon text-wrap">
+            <div class="menuitem">
               <img src="res/taco.png" class="img-responsive menupic" >
               <div style="border-style: solid none none none; background-color: lightgray;">
                 <div class="caption center-block">Lorem Ipsum Taco</div>
               </div>
-              <div style="border-style: solid none none none; background-color: #cfb329;">
+              <div style="border-style: solid none none none; background-color: #EFC15B;">
                 <div class="caption center-block">Deep fried tacos with taco sauce and topped with tacos</div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 menuitem text-wrap" style="border-radius: 15px;">
-            <div style="border-style: solid; max-width: 300px; display: inline-block; border-radius: 10px 10px 0px 0px; border-width: 4px;">
+          <div class="col-md-4 col-sm-6 col-xs-12 menuitemcon text-wrap">
+            <div class="menuitem">
               <img src="res/taco.png" class="img-responsive menupic" >
               <div style="border-style: solid none none none; background-color: lightgray;">
                 <div class="caption center-block">Lorem Ipsum Taco</div>
               </div>
-              <div style="border-style: solid none none none; background-color: #cfb329;">
+              <div style="border-style: solid none none none; background-color: #EFC15B;">
                 <div class="caption center-block">Deep fried tacos with taco sauce and topped with tacos</div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 menuitem text-wrap" style="border-radius: 15px;">
-            <div style="border-style: solid; max-width: 300px; display: inline-block; border-radius: 10px 10px 0px 0px; border-width: 4px;">
+          <div class="col-md-4 col-sm-6 col-xs-12 menuitemcon text-wrap">
+            <div class="menuitem">
               <img src="res/taco.png" class="img-responsive menupic" >
               <div style="border-style: solid none none none; background-color: lightgray;">
                 <div class="caption center-block">Lorem Ipsum Taco</div>
               </div>
-              <div style="border-style: solid none none none; background-color: #cfb329;">
+              <div style="border-style: solid none none none; background-color: #EFC15B;">
                 <div class="caption center-block">Deep fried tacos with taco sauce and topped with tacos</div>
               </div>
             </div>
@@ -130,35 +131,35 @@
       </div>
       <div id="menu2" class="tab-pane fade">
         <div class="row menurow">
-          <div class="col-md-4 col-sm-6 col-xs-12 menuitem text-wrap" style="border-radius: 15px;">
-            <div style="border-style: solid; max-width: 300px; display: inline-block; border-radius: 10px 10px 0px 0px; border-width: 4px;">
+          <div class="col-md-4 col-sm-6 col-xs-12 menuitemcon text-wrap">
+            <div class="menuitem">
               <img src="res/taco.png" class="img-responsive menupic" >
               <div style="border-style: solid none none none; background-color: lightgray;">
                 <div class="caption center-block">Lorem Ipsum Taco</div>
               </div>
-              <div style="border-style: solid none none none; background-color: #cfb329;">
+              <div style="border-style: solid none none none; background-color: #EFC15B;">
                 <div class="caption center-block">Deep fried tacos with taco sauce and topped with tacos</div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 menuitem text-wrap" style="border-radius: 15px;">
-            <div style="border-style: solid; max-width: 300px; display: inline-block; border-radius: 10px 10px 0px 0px; border-width: 4px;">
+          <div class="col-md-4 col-sm-6 col-xs-12 menuitemcon text-wrap">
+            <div class="menuitem">
               <img src="res/taco.png" class="img-responsive menupic" >
               <div style="border-style: solid none none none; background-color: lightgray;">
                 <div class="caption center-block">Lorem Ipsum Taco</div>
               </div>
-              <div style="border-style: solid none none none; background-color: #cfb329;">
+              <div style="border-style: solid none none none; background-color: #EFC15B;">
                 <div class="caption center-block">Deep fried tacos with taco sauce and topped with tacos</div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 menuitem text-wrap" style="border-radius: 15px;">
-            <div style="border-style: solid; max-width: 300px; display: inline-block; border-radius: 10px 10px 0px 0px; border-width: 4px;">
+          <div class="col-md-4 col-sm-6 col-xs-12 menuitemcon text-wrap">
+            <div class="menuitem">
               <img src="res/taco.png" class="img-responsive menupic" >
               <div style="border-style: solid none none none; background-color: lightgray;">
                 <div class="caption center-block">Lorem Ipsum Taco</div>
               </div>
-              <div style="border-style: solid none none none; background-color: #cfb329;">
+              <div style="border-style: solid none none none; background-color: #EFC15B;">
                 <div class="caption center-block">Deep fried tacos with taco sauce and topped with tacos</div>
               </div>
             </div>
@@ -173,8 +174,8 @@
 
 <footer>
 	<div class="container-fluid" style="background-color: black">
-		<div class="row footer-row" style="background-color: black">
-      <div class="col-sm-8">
+		<div class="row footer-row">
+      <div class="col-sm-8 footer-info">
 		    <a href="#" class="footer-item">CATERING</a>
 		    <a href="#" class="footer-item">CAREERS</a>
 		    <a href="#" class="footer-item">LOCATIONS</a>
@@ -182,7 +183,7 @@
         <a href="#" class="footer-item">CONTACT</a>
       </div>
 
-      <div class="col-sm-4" style="text-align: right;">
+      <div class="col-sm-4 footer-social">
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-instagram"></a>
@@ -200,6 +201,7 @@
 	</div>
 
 </footer>
+
 
 </body>
 
@@ -228,13 +230,28 @@
     margin:0 auto;
     display: block;
     text-align: center;
-    max-height: 52px;
+    
+   
 
 }
 .navcenter {
- display: inline-block;
+  display: inline-block;
   float: none;
   vertical-align: top;
+}
+
+/*@media (min-width: 867px) {
+  .navcenter {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    transform: translateX(-13%);
+  }
+}*/
+
+.navbar-right {
+  font-size: 16px;
+
 }
 
 .icon-bar {
@@ -246,10 +263,10 @@
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     
-    color: #cfb329;
+    color: #EFC15B;
 }
 .bg {
-	background-image: url("res/wood3background.jpg");
+	background-image: url("res/treebackground_e.jpg");
 	background-repeat: no-repeat;
 	background-attachment : fixed;
 }
@@ -261,17 +278,17 @@
 	padding-left: 50px;
 	padding-top: 9px;
 }
-@media (max-width: 767px){
-    .navbar-header > a > img {
-        max-height: 80px;
-	padding-left: 50px;
-	padding-top: 7px;;
+.footer-social {
+      text-align: right;
     }
 
-}
+
+
+
 
 .footer-row {
-  background-color: blue;
+  margin: 0;
+  background-color: black;
   width: 100%;
 	min-height: 10px;
 	padding: 25px 25px;
@@ -284,7 +301,7 @@
   color: white;
 }
 .footer-item:hover{
-    color: #cfb329;
+    color: #EFC15B;
 }
 
 .fa, .fa-facebook:focus, .fa-twitter:focus, .fa-instagram:focus {
@@ -315,7 +332,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 10px;
-  margin-left: 3%;
+  margin-left: 4%;
 }
 .menurow {
   text-align: center;
@@ -323,12 +340,18 @@
   width: 90%;
   margin-left: 5%;
 }
-.menuitem {
+.menuitemcon {
  padding: 20px;
-
-
-
+ border-radius: 15px;
 }
+.menuitem {
+  border-style: solid; 
+  max-width: 300px; 
+  display: inline-block; 
+  border-radius: 10px 10px 0px 0px; 
+  border-width: 4px; 
+  background-color: #F2F1F0}
+
 .menupic {
   padding: 10px;
   max-height: 400px; 
@@ -338,11 +361,12 @@
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    background-color: #cfb329;
+    background-color: #EFC15B;
     color: black;
 }
 .nav-pills > li > a{
-    color: #cfb329;
+  background-color: white;
+    color: #CCA652;
     font-size: 20px;
     font-family: "Arial Black", Gadget, sans-serif;
 }
@@ -353,6 +377,38 @@ a:link {
 
 a:visited {
   text-decoration: none;
+}
+
+
+@media (max-width: 767px){
+    .navbar-header > a > img {
+      max-height: 70px;
+      padding-left: 50px;
+      padding-top: 7px;
+      transform: translateX(3%);
+    }
+    .navbar{
+      max-height: unset;
+
+    }
+
+    .footer-info {
+      text-align: center;
+    }
+    .footer-social {
+      padding: 15px 0px 0px 0px;
+      text-align: center;
+    }
+
+    .nav-pills > li > a{
+    font-size: 17px;
+
+}
+
+.pillrow {
+  margin-top: 40px;
+
+}
 }
 
 
